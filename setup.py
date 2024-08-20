@@ -18,8 +18,8 @@ setup(
         )
     ],
     entry_points={
-        "console_scripts": [
-            "evaluate_functional_correctness = human_eval.evaluate_functional_correctness",
+        'console_scripts': [
+            'evaluate_functional_correctness=human_eval:main_function',
         ]
     }
 )
